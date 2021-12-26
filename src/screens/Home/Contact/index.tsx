@@ -1,5 +1,5 @@
 import { Col, Form, Row } from 'react-bootstrap';
-import { Button, Div, DivSecundary, H2, Input, TextArea } from './styles';
+import { Button, DivSecundary, H2, Input, TextArea } from './styles';
 
 export function Contact() {
   return (
