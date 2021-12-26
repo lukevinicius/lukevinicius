@@ -8,7 +8,7 @@ export const Div = styled.div`
   @media screen and (max-width: 768px) {
     padding: 20px 40px 20px 40px;
   }
-  background: linear-gradient(270deg, #09090a, #121214);
+  background: #121214;
 `;
 export const Button = styled.div`
   margin: 10px;
