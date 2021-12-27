@@ -12,11 +12,14 @@ export const Div = styled.div`
 `;
 export const Button = styled.div`
   background-color: transparent;
-  padding: 15px;
+  text-align: center;
+  padding: 5px;
   border: 1px solid var(--shape);
   border-radius: 40px;
+  color: var(--shape);
+  width: 130%;
   :hover {
-    background-color: var(--shape);
-    color: '#131415';
+    color: black;
+    background: var(--shape);
   }
 `;

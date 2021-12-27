@@ -11,7 +11,7 @@ export function Header() {
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
+          <Nav style={{ alignItems: 'center' }}>
             <Nav.Link href="#home" style={{ color: 'var(--shape)' }}>
               HOME
             </Nav.Link>
@@ -29,11 +29,7 @@ export function Header() {
             >
               PORTFOLIO
             </Nav.Link>
-            <Nav.Link
-              eventKey={3}
-              href="#contato"
-              style={{ color: 'var(--shape)' }}
-            >
+            <Nav.Link eventKey={3} href="#contato">
               <Button>CONTATO</Button>
             </Nav.Link>
           </Nav>
