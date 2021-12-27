@@ -3,7 +3,7 @@ import { Button, DivSecundary, H2, Input, TextArea } from './styles';
 
 export function Contact() {
   return (
-    <DivSecundary>
+    <DivSecundary id="contato">
       <Row>
         <Col>
           <H2 style={{ fontSize: '64px' }}>Gostou do meu trabalho?</H2>

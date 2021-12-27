@@ -3,7 +3,7 @@ import { Div } from './styles';
 
 export function Portfolio() {
   return (
-    <Div>
+    <Div id="portfolio">
       <h2 style={{ color: 'var(--shape)', textAlign: 'center' }}>Portfolio</h2>
       <Row>
         <Col>

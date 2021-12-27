@@ -19,7 +19,7 @@ import git from '../../../assets/icons/git.png';
 
 export function About() {
   return (
-    <Div>
+    <Div id="about">
       <h2
         style={{ color: 'var(--shape)', textAlign: 'center', margin: '25px' }}
       >
