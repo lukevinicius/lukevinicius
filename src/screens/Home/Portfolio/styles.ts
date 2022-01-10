@@ -7,3 +7,8 @@ export const Div = styled.div`
   }
   background-color: #121214;
 `;
+export const DivProject = styled.div`
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+`;

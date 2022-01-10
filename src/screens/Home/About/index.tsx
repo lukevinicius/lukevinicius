@@ -2,20 +2,7 @@ import { Col, Row } from 'react-bootstrap';
 import { Border, Div, DivTech } from './styles';
 
 import me from '../../../assets/images/me.jpeg';
-import html from '../../../assets/icons/html.png';
-import css from '../../../assets/icons/css.png';
-import javascript from '../../../assets/icons/javascript.png';
-import typescript from '../../../assets/icons/typescript.png';
-import postgresql from '../../../assets/icons/postgresql.png';
-import mongodb from '../../../assets/icons/mongodb.png';
-import react from '../../../assets/icons/react.png';
-import vuejs from '../../../assets/icons/vuejs.png';
-import nodejs from '../../../assets/icons/nodejs.png';
-import docker from '../../../assets/icons/docker.png';
-/* import aws from '../../../assets/icons/aws.png'; */
-import heroku from '../../../assets/icons/heroku.png';
 import netlify from '../../../assets/icons/netlify.png';
-import git from '../../../assets/icons/git.png';
 
 export function About() {
   return (
@@ -49,13 +36,23 @@ export function About() {
           <b style={{ color: 'var(--shape)', fontSize: '28px' }}>Linguagens</b>
           <Row>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={html} alt="html" width="50" height="50" />
+              <img
+                alt="Lucas-HTML"
+                height="50"
+                width="50"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>HTML</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={css} alt="css" width="50" height="50" />
+              <img
+                alt="Lucas-CSS"
+                height="50"
+                width="50"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>CSS</b>
               </p>
@@ -66,25 +63,45 @@ export function About() {
                 margin: '25px',
               }}
             >
-              <img src={javascript} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-Js"
+                height="50"
+                width="50"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>JavaScript</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={typescript} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-typescript"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>Typescript</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={postgresql} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-postgresql"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>PostgreSQL</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={mongodb} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-mongodb"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>MongoDB</b>
               </p>
@@ -95,31 +112,56 @@ export function About() {
           </b>
           <Row>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={react} alt="javascript" width="60" height="50" />
+              <img
+                alt="Lucas-React"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>React</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={vuejs} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-Vuejs"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>VueJS</b>
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={nodejs} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-Nodejs"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>Nodejs</b>
               </p>
             </Col>
-            {/* <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={aws} alt="aws" width="100" height="80" />
+            <Col style={{ textAlign: 'center', margin: '25px' }}>
+              <img
+                alt="Lucas-AWS"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>AWS</b>
               </p>
-            </Col> */}
+            </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={heroku} alt="javascript" width="50" height="50" />
+              <img
+                alt="Lucas-Heroku"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>Heroku</b>
               </p>
@@ -131,13 +173,23 @@ export function About() {
               </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={docker} alt="docker" width="70" height="70" />
-              {/* <p style={{ color: 'var(--background)' }}>
+              <img
+                alt="Lucas-Docker"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
+              />
+              <p style={{ color: 'var(--background)' }}>
                 <b>Docker</b>
-              </p> */}
+              </p>
             </Col>
             <Col style={{ textAlign: 'center', margin: '25px' }}>
-              <img src={git} alt="git" width="50" height="50" />
+              <img
+                alt="Lucas-Git"
+                height="50"
+                width="50"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              />
               <p style={{ color: 'var(--background)' }}>
                 <b>Git</b>
               </p>

@@ -1,5 +1,5 @@
 import { Col, Row } from 'react-bootstrap';
-import { Div } from './styles';
+import { Div, DivProject } from './styles';
 
 export function Portfolio() {
   return (
@@ -15,10 +15,16 @@ export function Portfolio() {
       </h2>
       <Row>
         <Col>
-          <h2 style={{ color: 'var(--shape)' }}>Memoirs</h2>
+          <DivProject>
+            <h2 style={{ color: 'var(--shape)' }}>Memoirs</h2>
+            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
+          </DivProject>
         </Col>
         <Col>
-          <h2 style={{ color: 'var(--shape)' }}>O Palpiteiro</h2>
+          <DivProject>
+            <h2 style={{ color: 'var(--shape)' }}>O Palpiteiro</h2>
+            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
+          </DivProject>
         </Col>
       </Row>
     </Div>
