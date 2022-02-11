@@ -32,5 +32,6 @@ export const Button = styled.button`
   margin-top: 15px;
   :hover {
     background-color: var(--background);
+    transition: 0.3s;
   }
 `;

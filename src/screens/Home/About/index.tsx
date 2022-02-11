@@ -21,9 +21,9 @@ export function About() {
             Olá meu nome é Lucas e eu sou um Desenvolvedor FullStack.
           </p>
           <p style={{ color: 'var(--background)' }}>
-            Eu crio sites sites responsáveis e aplicações mobile em JavaScript
-            com Bootstrap, Material design, utilizando frameworks como React e
-            Vuejs.
+            Sou formado em Análise e desenvolvimento de sistemas. Eu crio sites
+            sites responsáveis e aplicações mobile em JavaScript com Bootstrap,
+            Material design, utilizando frameworks como React e Vuejs.
           </p>
           <p style={{ color: 'var(--background)' }}>
             Desenvolvo diversos tipos de aplicações, sempre focando em otimizar

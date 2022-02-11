@@ -24,7 +24,7 @@ export function Home() {
       </Div>
       <About />
       <Portfolio />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

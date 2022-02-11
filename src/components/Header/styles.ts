@@ -20,6 +20,7 @@ export const Button = styled.div`
   width: 130%;
   :hover {
     color: black;
+    transition: 0.3s;
     background: var(--shape);
   }
 `;
