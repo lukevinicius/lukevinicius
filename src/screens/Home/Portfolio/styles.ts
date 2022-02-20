@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 export const Div = styled.div`
-  padding: 50px 80px 50px 80px;
+  padding: 2.5rem 4rem;
   @media screen and (max-width: 768px) {
-    padding: 20px 40px 20px 40px;
+    padding: 1rem 2.5rem;
   }
   background-color: #121214;
 `;
 export const DivProject = styled.div`
-  padding: 15px 30px 15px 30px;
-  border-radius: 5px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
   border: 1px solid #fff;
+  margin-top: 2rem;
 `;

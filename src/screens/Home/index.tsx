@@ -1,7 +1,6 @@
 import ParticlesBg from 'particles-bg';
 
 import { About } from './About';
-import { Contact } from './Contact';
 import { Portfolio } from './Portfolio';
 import { Div } from './styles';
 
@@ -24,7 +23,6 @@ export function Home() {
       </Div>
       <About />
       <Portfolio />
-      {/* <Contact /> */}
     </>
   );
 }

@@ -25,11 +25,11 @@ export const Button = styled.button`
   border-radius: 6px;
   padding: 10px;
   width: 140px;
-  font-size: 15px;
+  font-size: 1rem;
   background-color: var(--shape);
   /* color: var(--shape); */
-  border: 0px;
-  margin-top: 15px;
+  border: 0;
+  font-size: 1rem;
   :hover {
     background-color: var(--background);
     transition: 0.3s;

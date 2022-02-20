@@ -8,7 +8,6 @@ export function Portfolio() {
         style={{
           color: 'var(--shape)',
           textAlign: 'center',
-          marginBottom: '50px',
         }}
       >
         Portfolio
@@ -17,6 +16,12 @@ export function Portfolio() {
         <Col>
           <DivProject>
             <h2 style={{ color: 'var(--shape)' }}>Memoirs</h2>
+            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
+          </DivProject>
+        </Col>
+        <Col>
+          <DivProject>
+            <h2 style={{ color: 'var(--shape)' }}>Igreja 365</h2>
             <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
           </DivProject>
         </Col>

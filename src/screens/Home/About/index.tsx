@@ -35,7 +35,7 @@ export function About() {
         <Border>
           <b style={{ color: 'var(--shape)', fontSize: '28px' }}>Linguagens</b>
           <Row>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-HTML"
                 height="50"
@@ -46,7 +46,7 @@ export function About() {
                 <b>HTML</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-CSS"
                 height="50"
@@ -60,7 +60,7 @@ export function About() {
             <Col
               style={{
                 textAlign: 'center',
-                margin: '25px',
+                marginTop: '15px',
               }}
             >
               <img
@@ -73,7 +73,7 @@ export function About() {
                 <b>JavaScript</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', marginTop: '15px' }}>
               <img
                 alt="Lucas-typescript"
                 height="50"
@@ -84,7 +84,7 @@ export function About() {
                 <b>Typescript</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', marginTop: '15px' }}>
               <img
                 alt="Lucas-postgresql"
                 height="50"
@@ -95,7 +95,7 @@ export function About() {
                 <b>PostgreSQL</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', marginTop: '15px' }}>
               <img
                 alt="Lucas-mongodb"
                 height="50"
@@ -111,7 +111,7 @@ export function About() {
             Frameworks & Ferramentas
           </b>
           <Row>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-React"
                 height="50"
@@ -122,7 +122,7 @@ export function About() {
                 <b>React</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-Vuejs"
                 height="50"
@@ -133,7 +133,7 @@ export function About() {
                 <b>VueJS</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-Nodejs"
                 height="50"
@@ -144,7 +144,7 @@ export function About() {
                 <b>Nodejs</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-AWS"
                 height="50"
@@ -155,7 +155,7 @@ export function About() {
                 <b>AWS</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-Heroku"
                 height="50"
@@ -166,13 +166,13 @@ export function About() {
                 <b>Heroku</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img src={netlify} alt="javascript" width="50" height="50" />
               <p style={{ color: 'var(--background)' }}>
                 <b>Netlify</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-Docker"
                 height="50"
@@ -183,7 +183,7 @@ export function About() {
                 <b>Docker</b>
               </p>
             </Col>
-            <Col style={{ textAlign: 'center', margin: '25px' }}>
+            <Col style={{ textAlign: 'center', margin: '15px' }}>
               <img
                 alt="Lucas-Git"
                 height="50"
