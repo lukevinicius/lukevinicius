@@ -5,4 +5,10 @@ export const Div = styled.div`
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  h2 {
+    position: relative;
+    top: 50%;
+    color: var(--shape);
+  }
 `;
