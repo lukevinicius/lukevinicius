@@ -35,8 +35,8 @@ I also have experience with web and mobile development.
   <img align="center" alt="Lucas-Heroku" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
   <img align="center" alt="Lucas-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </div>
-  
-  **Follow me on my social media:**
+
+### Follow me on my social media
   
 <div>
   <a href = "mailto:lucasviniciusaalves@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
