@@ -3,7 +3,7 @@
 **I'm Lucas vinicius alencar alves 👨‍🚀**.
 I also have experience with web and mobile development.
 
-- 🔭 Today i'm looking for opportunities estou procurando oportunidades!!
+- 🔭 Today i'm looking for opportunities!
 - 🌱 Studying: **React, React Native e Nodejs**
 - 📫 Contact me: lucasviniciusaalves@gmail.com
 
