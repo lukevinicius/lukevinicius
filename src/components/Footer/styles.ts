@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Div = styled.div`
+export const Container = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
@@ -9,7 +9,9 @@ export const Div = styled.div`
     padding: 1rem 2.5rem;
   }
   background: #121214;
-`;
-export const Button = styled.div`
-  margin: 0.5rem;
+
+  a {
+    margin: 0.5rem;
+    color: var(--shape);
+  }
 `;

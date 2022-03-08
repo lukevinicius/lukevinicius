@@ -1,37 +1,32 @@
-import { Col, Row } from 'react-bootstrap';
-import { Div, DivProject } from './styles';
+import { Container, Grid } from './styles';
+
+import palpiteiroImg from '../../../assets/images/palpiteiro.png';
 
 export function Portfolio() {
   return (
-    <Div id="portfolio">
-      <h2
-        style={{
-          color: 'var(--shape)',
-          textAlign: 'center',
-        }}
-      >
-        Portfolio
-      </h2>
-      <Row>
-        <Col>
-          <DivProject>
-            <h2 style={{ color: 'var(--shape)' }}>Memoirs</h2>
-            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
-          </DivProject>
-        </Col>
-        <Col>
-          <DivProject>
-            <h2 style={{ color: 'var(--shape)' }}>Igreja 365</h2>
-            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
-          </DivProject>
-        </Col>
-        <Col>
-          <DivProject>
-            <h2 style={{ color: 'var(--shape)' }}>O Palpiteiro</h2>
-            <p style={{ color: 'var(--shape)' }}>Em desenvolvimento</p>
-          </DivProject>
-        </Col>
-      </Row>
-    </Div>
+    <Container id="portfolio">
+      <h2>Portfolio</h2>
+      <Grid>
+        <div>
+          <a href="https://www.opalpiteirovip.com/">
+            <img src={palpiteiroImg} alt="opalpiteiro" />
+          </a>
+          <p>
+            O projeto Palpiteiro é uma landing page para venda de um grupo vip
+            de dicas de apostas esportivas. O projeto foi desenvolvido para O
+            Palpiteiro |{' '}
+            <a href="https://www.opalpiteirovip.com/">@opalpiteiro</a>
+          </p>
+        </div>
+        <div>
+          <h2>Memoirs</h2>
+          <p>Em desenvolvimento</p>
+        </div>
+        <div>
+          <h2>Igreja 365</h2>
+          <p>Em desenvolvimento</p>
+        </div>
+      </Grid>
+    </Container>
   );
 }

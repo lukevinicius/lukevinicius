@@ -1,0 +1,110 @@
+import netlify from '../../../../assets/icons/netlify.png';
+import { Content, Container, Grid } from './styles';
+
+export function Technologies() {
+  return (
+    <Container>
+      <Content>
+        <b>Linguagens</b>
+        <Grid>
+          <div>
+            <img
+              alt="Lucas-HTML"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+            />
+            <p>HTML</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-CSS"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+            />
+            <p>CSS</p>
+          </div>
+          <div
+            style={{
+              textAlign: 'center',
+              marginTop: '15px',
+            }}
+          >
+            <img
+              alt="Lucas-Js"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-typescript"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            />
+            <p>Typescript</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-postgresql"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            />
+            <p>PostgreSQL</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-mongodb"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            />
+            <p>MongoDB</p>
+          </div>
+        </Grid>
+        <b>Frameworks & Ferramentas</b>
+        <Grid>
+          <div>
+            <img
+              alt="Lucas-React"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
+            <p>React</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-Nodejs"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            />
+            <p>Nodejs</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-AWS"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            />
+            <p>AWS</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-Heroku"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg"
+            />
+            <p>Heroku</p>
+          </div>
+          <div>
+            <img src={netlify} alt="javascript" />
+            <p>Netlify</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-Docker"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg"
+            />
+            <p>Docker</p>
+          </div>
+          <div>
+            <img
+              alt="Lucas-Git"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            />
+            <p>Git</p>
+          </div>
+        </Grid>
+      </Content>
+    </Container>
+  );
+}
