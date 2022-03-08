@@ -1,8 +1,11 @@
-### Olá! Meu nome é Lucas vinicius alencar alves.
+### Hey there 👋
 
-- 🔭 Hoje estou procurando oportunidades!!
-- 🌱 Estudando: **React, React Native e Nodejs**
-- 📫 Contacte-me no gmail: lucasviniciusaalves@gmail.com
+**I'm Lucas vinicius alencar alves 👨‍🚀**.
+I also have experience with web and mobile development.
+
+- 🔭 Today i'm looking for opportunities!
+- 🌱 Studying: **React, React Native e Nodejs**
+- 📫 Contact me: lucasviniciusaalves@gmail.com
 
 <div align="center">
   <a href="https://github.com/lukevinicius">
@@ -10,7 +13,7 @@
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lukevinicius&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
-### Linguagens
+### Languages
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Lucas-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -21,7 +24,7 @@
   <img align="center" alt="Lucas-mongodb" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 </div>
 
-### Frameworks & Ferramentas
+### Frameworks & Tools
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Lucas-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
@@ -31,8 +34,8 @@
   <img align="center" alt="Lucas-Heroku" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
   <img align="center" alt="Lucas-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 </div>
-  
-  ##
+
+### Follow me on my social media
   
 <div>
   <a href = "mailto:lucasviniciusaalves@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
