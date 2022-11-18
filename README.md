@@ -4,7 +4,7 @@
 I also have experience with web and mobile development.
 
 - 🔭 Today i'm looking for opportunities!
-- 🌱 Studying: **React, React Native e Nodejs**
+- 🌱 Studying: **React, Nextjs, React Native e Nodejs**
 - 📫 Contact me: lucasviniciusaalves@gmail.com
 
 <div align="center">
