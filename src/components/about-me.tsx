@@ -5,7 +5,7 @@ export function AboutMe() {
     <div className="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%] w-full">
       <div className="container mx-auto">
         <div className="inline-block">
-          <div className="bg-purple-500 text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+          <div className="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
             <Sparkle size={16} />
             <span className="text-sm">Sobre Mim</span>
           </div>

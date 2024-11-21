@@ -1,16 +1,28 @@
 import instagramIcon from '@/assets/instagram.svg'
 import linkedinIcon from '@/assets/linkedin.svg'
+import phoneCall from '@/assets/phone-call.svg'
 import { Mail, MapPin, PhoneCall } from 'lucide-react'
 import Image from 'next/image'
 
+import { Button } from '@/components/ui/button'
+
 export function Footer() {
   return (
-    <footer id="contact" className="bg-dark bg-white/[8%]">
+    <footer id="contact" className="bg-zinc-900">
       <div className="py-16">
         <div className="container">
           <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-7">
-            <div></div>
-            <div></div>
+            <div className="text-zinc-100">
+              <p className="font-bold text-3xl/normal lg:text-[40px]/normal max-w-xl">
+                Tem um projeto em mente? Vamos começar a trabalhar.
+              </p>
+              <div className="inline-block mt-8 md:mt-14">
+                <Button className="bg-purple hover:bg-purple/80">
+                  Entrar em contato
+                </Button>
+              </div>
+            </div>
+            <Image src={phoneCall} alt="phone-call" className="mx-auto" />
           </div>
         </div>
       </div>
