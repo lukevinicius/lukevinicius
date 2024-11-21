@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Sora } from 'next/font/google'
 
+import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${sora.className} antialiased bg-[#FCFCFC] w-full`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
