@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { AboutMe } from '@/components/about-me'
 import { Experience } from '@/components/experience'
 import { Services } from '@/components/services'
+import { Skills } from '@/components/skills'
 import { Button } from '@/components/ui/button'
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
       <AboutMe />
       <Services />
       <Experience />
+      <Skills />
     </>
   )
 }
