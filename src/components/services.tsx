@@ -6,7 +6,7 @@ export function Services() {
       <div className="container">
         <div className="text-center">
           <div className="inline-block">
-            <div className="bg-purple-500 text-zinc-200 text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+            <div className="bg-purple text-zinc-100 text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
               <span className="text-sm">Serviços</span>
             </div>
