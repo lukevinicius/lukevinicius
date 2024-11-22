@@ -8,11 +8,11 @@ import Image from 'next/image'
 
 export function Skills() {
   return (
-    <div className="py-16 md:py-24 bg-zinc-100">
+    <section className="py-16 md:py-24 bg-white">
       <div className="container">
         <div className="text-center">
           <div className="inline-block">
-            <div className="bg-purple text-zinc-100 text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+            <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
               <span className="text-sm">Habilidades</span>
             </div>
@@ -83,6 +83,6 @@ export function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

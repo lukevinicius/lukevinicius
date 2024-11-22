@@ -2,11 +2,11 @@ import { Sparkle } from 'lucide-react'
 
 export function Services() {
   return (
-    <div className="py-16 md:py-24 text-white bg-[#050c17]">
+    <section id="services" className="py-16 md:py-24 text-white bg-black">
       <div className="container">
         <div className="text-center">
           <div className="inline-block">
-            <div className="bg-purple text-zinc-100 text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+            <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
               <span className="text-sm">Serviços</span>
             </div>
@@ -56,6 +56,6 @@ export function Services() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

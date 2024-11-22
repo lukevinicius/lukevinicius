@@ -2,10 +2,13 @@ import { Sparkle } from 'lucide-react'
 
 export function AboutMe() {
   return (
-    <div className="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%] w-full">
+    <section
+      id="about-me"
+      className="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%] w-full"
+    >
       <div className="container mx-auto">
         <div className="inline-block">
-          <div className="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+          <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
             <Sparkle size={16} />
             <span className="text-sm">Sobre Mim</span>
           </div>
@@ -40,6 +43,6 @@ export function AboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

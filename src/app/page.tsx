@@ -10,13 +10,13 @@ import { Button } from '@/components/ui/button'
 export default function Home() {
   return (
     <>
-      <section className="pt-[100px] relative">
+      <section id="home" className="pt-[100px] relative">
         <div className="container">
           <div className="grid grid-cols-1">
             <div className="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
               <div className="w-full lg:w-1/2">
                 <div className="py-16 md:py-24 w-full">
-                  <p className="font-semibold text-lg p-2.5 bg-emerald-200 inline-block text-emerald-700">
+                  <p className="font-semibold text-lg p-2.5 bg-yellow/20 inline-block text-yellow">
                     Olá! Eu sou Lucas vinicius.
                   </p>
                   <p className="font-bold text-3xl/normal md:text-[50px]/normal text-black mt-8">
@@ -27,7 +27,10 @@ export default function Home() {
                     coisas para a web.
                   </p>
                   <div className="flex flex-wrap gap-5 mt-10">
-                    <Button size="lg" className="mt-8">
+                    <Button
+                      size="lg"
+                      className="mt-8 bg-yellow hover:bg-yellow/85"
+                    >
                       Contrate-me
                     </Button>
                     <Button size="lg" variant="outline" className="mt-8">
@@ -50,7 +53,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-[radial-gradient(#994ff5,#ffc41f)] max-w-[800px] md:top-[100px] lg:absolute bottom-0 right-0 lg:w-6/12 w-full">
+              <div className="bg-[radial-gradient(#10475E,#3D717E,#F9A825)] max-w-[800px] md:top-[100px] lg:absolute bottom-0 right-0 lg:w-6/12 w-full">
                 <p className="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text">
                   Lucas vinicius
                 </p>
