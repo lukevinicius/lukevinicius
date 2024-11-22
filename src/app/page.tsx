@@ -42,7 +42,7 @@ export default function Home() {
                     Eu sou um desenvolvedor de software que gosta de criar
                     coisas para a web.
                   </p>
-                  <div className="flex flex-wrap gap-5 mt-10">
+                  <div className="flex flex-wrap gap-5 mt-10 max-md:justify-center">
                     <Button
                       size="lg"
                       className="mt-8 bg-yellow hover:bg-yellow/85"
@@ -54,7 +54,7 @@ export default function Home() {
                     </Button>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-5 pt-12 md:pt-20 md:gap-12">
+                  <div className="grid grid-cols-2 pt-12 md:pt-20 md:gap-12">
                     <div className="text-center">
                       <p className="text-2xl font-semibold text-zinc-900">
                         25+
@@ -62,7 +62,7 @@ export default function Home() {
                       <p className="text-zinc-500">Projetos feitos</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-2xl font-semibold text-zinc-900">4+</p>
+                      <p className="text-2xl font-semibold text-zinc-900">3+</p>
                       <p className="text-zinc-500">Anos de experiência</p>
                     </div>
                   </div>
