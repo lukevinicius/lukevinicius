@@ -10,7 +10,7 @@ export function Experience() {
   return (
     <section className="py-16 md:py-24">
       <div className="container">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <div className="inline-block">
             <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
@@ -30,7 +30,7 @@ export function Experience() {
         <div className="grid grid-cols-1 mt-14">
           <div className="relative space-y-12 md:space-y-12">
             <div className="block shrink-0 bg-[url('../assets/dot-line.svg')] w-[2px] bg-center bg-cover absolute h-full left-0 md:left-1/2 transform md:-translate-x-1/2" />
-            <div className="relative !mt-0">
+            <div className="relative !mt-0" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-start w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -60,7 +60,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-end w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -87,7 +87,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-start w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -157,7 +157,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-end w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -186,7 +186,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-start w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -212,7 +212,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-end w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">
@@ -236,7 +236,7 @@ export function Experience() {
                 <div className="bg-[radial-gradient(#994ff5,#ffc41f)] shrink-0 rounded-full w-2.5 h-2.5 block absolute left-px -translate-x-1/2 md:left-1/2 transform md:-translate-x-1/2 top-1/2 -translate-y-1/2" />
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up">
               <div className="flex flex-col items-center md:flex-row">
                 <div className="flex items-center justify-start w-full mx-auto">
                   <div className="w-full md:w-1/2 pl-7 md:pr-8 lg:pr-14">

@@ -8,15 +8,21 @@ export function AboutMe() {
     >
       <div className="container mx-auto">
         <div className="inline-block">
-          <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+          <div
+            className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5"
+            data-aos="fade-up"
+          >
             <Sparkle size={16} />
             <span className="text-sm">Sobre Mim</span>
           </div>
         </div>
-        <p className="text-2xl/normal text-zinc-900 font-semibold mt-7">
+        <p
+          className="text-2xl/normal text-zinc-900 font-semibold mt-7"
+          data-aos="fade-up"
+        >
           Lucas vinicius
         </p>
-        <p className="text-zinc-500 mt-6">
+        <p className="text-zinc-500 mt-6" data-aos="fade-up">
           Olá, sou Lucas Vinicius, tecnólogo em análise e desenvolvimento de
           sistemas. Tehho 3 anos de experiência trabalhando no setor de apostas
           esportivas e cassino online. Sou organizado, tenho bom relacionamento
@@ -24,7 +30,10 @@ export function AboutMe() {
           disposto a aprender e ensinar. Buscando novas oportunidades para criar
           produtos digitais impactantes.
         </p>
-        <div className="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0 mt-14">
+        <div
+          className="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0 mt-14"
+          data-aos="fade-up"
+        >
           <div className="space-y-2.5 font-semibold flex-1">
             <p className="text-zinc-500">Contato</p>
             <p className="text-zinc-900">lucasviniciusaalves@gmail.com</p>

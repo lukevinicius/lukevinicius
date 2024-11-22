@@ -1,4 +1,11 @@
+'use client'
+
+import 'aos/dist/aos.css'
+
+import { useEffect } from 'react'
+
 import fotoPessoal from '@/assets/fotopessoal.svg'
+import AOS from 'aos'
 import Image from 'next/image'
 
 import { AboutMe } from '@/components/about-me'
@@ -8,8 +15,17 @@ import { Skills } from '@/components/skills'
 import { Button } from '@/components/ui/button'
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      easing: 'ease-in-out-sine',
+      delay: 0,
+    })
+  })
+
   return (
     <>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <section id="home" className="pt-[100px] relative">
         <div className="container">
           <div className="grid grid-cols-1">

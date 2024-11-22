@@ -4,7 +4,7 @@ export function Services() {
   return (
     <section id="services" className="py-16 md:py-24 text-white bg-black">
       <div className="container">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <div className="inline-block">
             <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
@@ -23,7 +23,7 @@ export function Services() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-14 gap-7">
           <div
-            className="border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-to-t to-white/[4%] from-transparent aos-init aos-animate"
+            className="border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-to-t to-white/[4%] from-transparent"
             data-aos="fade-up"
           >
             <p className="text-zinc-200">Desenvolvimento WEB</p>

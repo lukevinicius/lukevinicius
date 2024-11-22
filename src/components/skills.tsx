@@ -8,9 +8,9 @@ import Image from 'next/image'
 
 export function Skills() {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-zinc-100">
       <div className="container">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <div className="inline-block">
             <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
@@ -26,7 +26,10 @@ export function Skills() {
             experiência do usuário.
           </p> */}
         </div>
-        <div className="grid items-center grid-cols-1 gap-10 md:gap-14 mt-14">
+        <div
+          className="grid items-center grid-cols-1 gap-10 md:gap-14 mt-14"
+          data-aos="fade-up"
+        >
           <div className="aos-init aos-animate">
             <div className="flex flex-wrap items-start gap-7">
               <div className="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
