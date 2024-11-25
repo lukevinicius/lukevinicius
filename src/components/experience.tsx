@@ -1,10 +1,11 @@
+import { BriefcaseBusiness, GraduationCap, Sparkle } from 'lucide-react'
+import Image from 'next/image'
+
 import mongodbIcon from '@/assets/mongodb.svg'
 import nextIcon from '@/assets/nextjs.svg'
 import nodeIcon from '@/assets/nodejs.svg'
 import postgresqlIcon from '@/assets/postgresql.svg'
 import reactIcon from '@/assets/reactjs.svg'
-import { BriefcaseBusiness, GraduationCap, Sparkle } from 'lucide-react'
-import Image from 'next/image'
 
 export function Experience() {
   return (

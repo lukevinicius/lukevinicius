@@ -1,11 +1,12 @@
+import Image from 'next/image'
+
+import { SectionTitle } from '@/components/section-title'
+
 import mongodbIcon from '@/assets/mongodb.svg'
 import nextIcon from '@/assets/nextjs.svg'
 import nodeIcon from '@/assets/nodejs.svg'
 import postgresqlIcon from '@/assets/postgresql.svg'
 import reactIcon from '@/assets/reactjs.svg'
-import Image from 'next/image'
-
-import { SectionTitle } from './section-title'
 
 export function Skills() {
   return (

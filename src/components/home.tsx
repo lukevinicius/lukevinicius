@@ -1,9 +1,10 @@
-import curriculum from '@/assets/curriculumPT.pdf'
-import fotoPessoal from '@/assets/fotopessoal.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 
 import { Button } from '@/components/ui/button'
+
+import curriculum from '@/assets/curriculumPT.pdf'
+import fotoPessoal from '@/assets/fotopessoal.svg'
 
 export function HomeComponent() {
   function handleDownloadCV() {

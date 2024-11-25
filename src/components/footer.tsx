@@ -1,10 +1,11 @@
-import instagramIcon from '@/assets/instagram.svg'
-import linkedinIcon from '@/assets/linkedin.svg'
-import phoneCall from '@/assets/phone-call.svg'
 import { Mail, MapPin, PhoneCall } from 'lucide-react'
 import Image from 'next/image'
 
 import { Button } from '@/components/ui/button'
+
+import instagramIcon from '@/assets/instagram.svg'
+import linkedinIcon from '@/assets/linkedin.svg'
+import phoneCall from '@/assets/phone-call.svg'
 
 export function Footer() {
   return (
