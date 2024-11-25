@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sora.className} antialiased bg-[#FCFCFC] w-full`}>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <Header />
         {children}
         <Footer />

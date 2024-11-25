@@ -10,6 +10,7 @@ const config = {
     '^@/lib/(.*)$',
     '^@/components/(.*)$',
     '^@/actions/(.*)$',
+    '^@/assets/(.*)$',
     '^[./]',
   ],
   importOrderSeparation: true,

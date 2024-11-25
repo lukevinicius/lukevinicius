@@ -3,29 +3,15 @@ import nextIcon from '@/assets/nextjs.svg'
 import nodeIcon from '@/assets/nodejs.svg'
 import postgresqlIcon from '@/assets/postgresql.svg'
 import reactIcon from '@/assets/reactjs.svg'
-import { Sparkle } from 'lucide-react'
 import Image from 'next/image'
+
+import { SectionTitle } from './section-title'
 
 export function Skills() {
   return (
     <section className="py-16 md:py-24 bg-zinc-100">
       <div className="container">
-        <div className="text-center" data-aos="fade-up">
-          <div className="inline-block">
-            <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
-              <Sparkle size={16} />
-              <span className="text-sm">Habilidades</span>
-            </div>
-          </div>
-          {/* <p className="text-2xl/normal text-zinc-800 font-semibold mt-7">
-            Talentos
-          </p>
-          <p className="text-zinc-400 mt-6">
-            Desenvolvo soluções completas para web e mobile, unindo design e
-            tecnologia com foco em performance, escalabilidade e ótima
-            experiência do usuário.
-          </p> */}
-        </div>
+        <SectionTitle title="Habilidades" />
         <div
           className="grid items-center grid-cols-1 gap-10 md:gap-14 mt-14"
           data-aos="fade-up"

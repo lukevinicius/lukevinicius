@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react'
 
+import Link from 'next/link'
+
 import { HeaderDesktop } from './header-desktop'
 import { HeaderMobile } from './header-mobile'
 
@@ -66,7 +68,9 @@ export function Header() {
     <header className="fixed top-0 z-50 w-full border-b-2 bg-black py-7 border-white/10 h-[100px]">
       <div className="container">
         <div className="flex items-center justify-between w-full">
-          <p className="font-semibold text-white">lukevinicius.dev</p>
+          <Link className="font-semibold text-white" href="/">
+            lukevinicius.dev
+          </Link>
           <HeaderDesktop activeId={activeId} links={links} />
           <HeaderMobile activeId={activeId} links={links} />
         </div>

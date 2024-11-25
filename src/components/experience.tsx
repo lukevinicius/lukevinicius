@@ -114,41 +114,24 @@ export function Experience() {
                           Juazeiro do Norte, CE, Brasil
                         </p>
                         <div className="flex flex-wrap items-center gap-5 mt-7 md:justify-end">
-                          <div className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70">
-                            <Image
-                              src={nodeIcon}
-                              alt="node-icon"
-                              className="h-6 w-6"
-                            />
-                          </div>
-                          <div className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70">
-                            <Image
-                              src={reactIcon}
-                              alt="react-icon"
-                              className="h-6 w-6"
-                            />
-                          </div>
-                          <div className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70">
-                            <Image
-                              src={nextIcon}
-                              alt="nextjs-icon"
-                              className="h-6 w-6"
-                            />
-                          </div>
-                          <div className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70">
-                            <Image
-                              src={postgresqlIcon}
-                              alt="postgresql-icon"
-                              className="h-6 w-6"
-                            />
-                          </div>
-                          <div className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70">
-                            <Image
-                              src={mongodbIcon}
-                              alt="mongodb-icon"
-                              className="h-6 w-6"
-                            />
-                          </div>
+                          {[
+                            nodeIcon,
+                            reactIcon,
+                            nextIcon,
+                            postgresqlIcon,
+                            mongodbIcon,
+                          ].map((icon, index) => (
+                            <div
+                              key={index}
+                              className="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-to-t from-white to-gray-200/70"
+                            >
+                              <Image
+                                src={icon}
+                                alt="icon"
+                                className="h-6 w-6"
+                              />
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>

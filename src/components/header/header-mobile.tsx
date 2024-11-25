@@ -16,7 +16,7 @@ interface HeaderMobileProps {
 export function HeaderMobile({ activeId, links }: HeaderMobileProps) {
   return (
     <Drawer>
-      <DrawerTrigger>
+      <DrawerTrigger className="md:hidden">
         <MenuIcon size={24} className="text-white" />
       </DrawerTrigger>
       <DrawerContent className="bg-black border-0 px-6">
